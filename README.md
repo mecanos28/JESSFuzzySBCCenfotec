@@ -1,3 +1,34 @@
+🔍 Descripción del Proyecto
+---------------------------
+
+Este proyecto utiliza **JESS (Java Expert System Shell)** para construir un sistema experto basado en lógica difusa. El sistema fue desarrollado como parte de un curso de Sistemas Basados en Conocimiento en Cenfotec y tiene como objetivo demostrar cómo integrar lógica difusa y reglas en un entorno basado en JESS.
+
+JESS permite crear reglas declarativas en formato CLIPS, que este proyecto aprovecha para tomar decisiones a partir de valores borrosos y condiciones que imitan el razonamiento humano.
+
+* * * * *
+
+✨ Características
+-----------------
+
+-   ✅ Implementación de un sistema experto con lógica difusa usando JESS.
+
+-   📄 Conjunto de reglas definidas en archivos `.clp` que modelan conocimiento experto.
+
+-   🔁 Capacidad para inferir resultados a partir de hechos y reglas cargadas dinámicamente.
+
+-   🧠 Incluye motor de inferencia para procesamiento encadenado hacia adelante (forward chaining).
+
+-   🎛️ Utiliza valores lingüísticos y funciones de pertenencia para representar incertidumbre.
+
+* * * * *
+
+🎯 Alcance
+----------
+
+Este sistema está diseñado como una **prueba de concepto educativa**. El enfoque es demostrar cómo se puede construir un sistema basado en reglas con JESS para simular razonamiento humano con incertidumbre, mediante lógica difusa.
+
+El dominio específico puede adaptarse según el conjunto de reglas cargadas; por ejemplo, puede utilizarse para clasificación, evaluación o toma de decisiones simples en diferentes contextos.
+
 # Fuzzy Logic Jess App
 
 Este proyecto simula un sistema que controla la velocidad de un ventilador basado en temperatura y humedad utilizando el motor de reglas JESS.
